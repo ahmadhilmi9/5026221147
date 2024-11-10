@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #b52026;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+
+header{
+  width: 95%;
+  max-width: 555px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+h2{
+  margin-top: 3px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 16px;
+}
+p{
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.small-text {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 5px;
+}
+.small-text2 {
+  font-size: 16px;
+  color: white;
+}
+
+.share-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.share-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+.subscribe-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+.subscribe-button svg {
+  margin-left: 12px;
+  margin-top: 12px;
+  filter: brightness(0) invert(1);
+}
+
+.container{
+  width: 91%;
+  max-width: 585px;
+  margin-top: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.tile {
+  width: 100%;
+  min-height: 64px;
+  overflow: hidden;
+  background-color:transparent;
+  margin-bottom: 16px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+   
+}
+
+.tile:hover{
+  background-color: white;
+  color: #b52026;
+  border-color: rgb(255, 255, 255);
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+}
+
+
+.image-container{
+  height: 96px;
+  width: 96px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.image-container img{
+  height: 100%;
+}
+
+.tile-share-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 8px;
+  flex-shrink: 0; 
+ 
+}
+
+.tile-share-button svg{
+  margin-top: 13px;
+  margin-left: 18px;
+  color: rgb(118, 118, 118);
+}
+.icon{
+  width: 32px;
+  height: 32px;
+  left: 8px;
+  margin-top: 10px;
+  margin: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+ 
+}
+.icon img{
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  filter: brightness(0) invert(1);
+}
+
+.tile:hover .icon img {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(93%) saturate(1542%) hue-rotate(334deg) brightness(96%) contrast(107%);
+}
+
