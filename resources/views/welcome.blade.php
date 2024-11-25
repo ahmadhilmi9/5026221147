@@ -410,7 +410,7 @@
       <a href="{{url('responsive1')}}" class="btn btn-dark m-2 text-white">Responsive</a>
       <a href="{{url('form')}}" class="btn btn-dark m-2 text-white">form</a>
       <a href="{{url('tugas1')}}" class="btn btn-dark m-2 text-white">Linktree</a>
-      <a href="{{url('5026221147')}}" class="btn btn-dark m-2 text-white">Our testimoni</a>
+      <a href="{{url('ourtestimoni')}}" class="btn btn-dark m-2 text-white">Our testimoni</a>
     </div>
   </div>
 
