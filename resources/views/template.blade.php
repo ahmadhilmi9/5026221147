@@ -14,7 +14,10 @@
 <div class="container">
     <h2>Ahmad Hilmi Dwi Setiawan - 5026221147</h2>
     <h3>@yield('tulisan1')</h3>
-
+    <br/>
+@yield('linkdata')
+<br/>
+<br/>
 @yield('link1')
 
 <br/>
@@ -23,6 +26,6 @@
 @yield('konten')
 
 </div>
-
+@yield('script')
 </body>
 </html>

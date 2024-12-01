@@ -76,3 +76,19 @@ Route::post('/pegawai/update','App\Http\Controllers\PegawaiDBController@update')
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiDBController@hapus');
 
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiDBController@cari');
+
+//snack root
+
+Route::get('/snack','App\Http\Controllers\SnackDBController@index1');
+
+Route::get('/snack/tambah','App\Http\Controllers\SnackDBController@tambah1');
+
+Route::post('/snack/store','App\Http\Controllers\SnackDBController@store1');
+
+Route::get('/snack/edit/{id}','App\Http\Controllers\SnackDBController@edit1');
+
+Route::post('/snack/update','App\Http\Controllers\SnackDBController@update1');
+
+Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackDBController@hapus1');
+
+Route::get('/snack/cari1','App\Http\Controllers\SnackDBController@cari1');

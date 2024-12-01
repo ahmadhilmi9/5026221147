@@ -2,6 +2,11 @@
 
 @section('tulisan1', 'Data Pegawai')
 
+@section('linkdata')
+<a href="/pegawai" class="btn btn-success">Data Pegawai</a>
+<a href="/snack" class="btn btn-info">Data Snack</a>
+@endsection
+
 @section('link1')
 	<a href="/pegawai/tambah" class="btn btn-primary"> + Tambah Pegawai Baru</a>
 @endsection
