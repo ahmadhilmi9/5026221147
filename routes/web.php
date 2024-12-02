@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Route::get('/ourtestimoni', function () {
     return view('5026221147');
@@ -92,3 +92,5 @@ Route::post('/snack/update','App\Http\Controllers\SnackDBController@update1');
 Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackDBController@hapus1');
 
 Route::get('/snack/cari1','App\Http\Controllers\SnackDBController@cari1');
+
+Route::get('/','App\Http\Controllers\pagenotionController@index2');
