@@ -94,3 +94,5 @@ Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackDBController@hapus1');
 Route::get('/snack/cari1','App\Http\Controllers\SnackDBController@cari1');
 
 Route::get('/','App\Http\Controllers\pagenotionController@index2');
+
+Route::get('/uts','App\Http\Controllers\utscontroller@index2');

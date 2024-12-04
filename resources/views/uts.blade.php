@@ -1,6 +1,6 @@
 @extends('template')
 
-@section('tulisan1','Page Counter')
+@section('tulisan1','UTS')
 
 @section('linkdata')
 <a href="/pegawai" class="btn btn-success">Data Pegawai</a>
@@ -10,10 +10,5 @@
 
 @section('konten')
 
-<div class="alert alert-success">
-    <strong>Selamat !</strong> Anda Pengunjung ke
-     @foreach($pagecounter as $c)
-         {{$c->jumlah}}
-     @endforeach
-  </div>
+
 @endsection
