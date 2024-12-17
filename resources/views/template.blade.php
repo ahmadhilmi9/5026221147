@@ -16,8 +16,11 @@
     <h3>@yield('tulisan1')</h3>
     <br/>
 @yield('linkdata')
-<br/>
-<br/>
+<a href="/pegawai" class="btn btn-success">Data Pegawai</a>
+<a href="/snack" class="btn btn-info">Data Snack</a>
+<a href="/uas" class="btn btn-info">UAS</a>
+</br>
+</br>
 @yield('link1')
 
 <br/>

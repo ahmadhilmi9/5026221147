@@ -95,4 +95,8 @@ Route::get('/snack/cari1','App\Http\Controllers\SnackDBController@cari1');
 
 Route::get('/','App\Http\Controllers\pagenotionController@index2');
 
-Route::get('/uts','App\Http\Controllers\utscontroller@index2');
+Route::get('/uas','App\Http\Controllers\uascontroller@indexuas');
+
+Route::get('/uas/tambah','App\Http\Controllers\uascontroller@tambahuas');
+
+Route::post('/uas/store','App\Http\Controllers\uascontroller@storeuas');
